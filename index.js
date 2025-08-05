@@ -13,6 +13,7 @@ app.use(
     origin: [
       "http://localhost:4200",
       "https://node-mail-sender-three.vercel.app",
+      "https://www.kisstech.in",
     ], // Add deployed domain here if needed
   })
 );
