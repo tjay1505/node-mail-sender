@@ -10,7 +10,10 @@ const app = express();
 // Allow both localhost and deployed portfolio domain
 app.use(
   cors({
-    origin: ["http://localhost:4200"], // Add deployed domain here if needed
+    origin: [
+      "http://localhost:4200",
+      "https://node-mail-sender-three.vercel.app",
+    ], // Add deployed domain here if needed
   })
 );
 
